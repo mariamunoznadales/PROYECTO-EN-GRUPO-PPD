@@ -41,19 +41,20 @@ UUID=interfaz_dashboard
 
 ## Ejecución paso a paso
 
-1. Abre 3 terminales o pestañas:
+Abre 3 terminales o pestañas:
 
-Terminal 1 – Interfaz gráfica
+1. Terminal 1 – Interfaz gráfica
 
 python3 interfaz_dashboard.py
 
-Terminal 2 – Generador de emergencias
+2. Terminal 2 – Generador de emergencias
 
 python3 publisher.py --intervalo 3 --channel emergencias
 
-Terminal 3 – Hospitales
+3. Terminal 3 – Hospitales
 
 python3 hospital_a.py 
+
 python3 hospital_b.py
 
 
