@@ -9,23 +9,23 @@ Simular un sistema de emergencias en tiempo real con múltiples agentes (generad
 ---
 
 ## Estructura del proyecto
-├── publisher.py # Generador de emergencias
+├── publisher.py ** Generador de emergencias
 
-├── urgencia.py # Lógica para crear emergencias
+├── urgencia.py ** Lógica para crear emergencias
 
-├── base_hospital.py # Lógica común para hospitales
+├── base_hospital.py ** Lógica común para hospitales
 
-├── hospital_a.py # Hospital con filtros configurables
+├── hospital_a.py ** Hospital con filtros configurables
 
-├── hospital_b.py # Otro hospital
+├── hospital_b.py ** Otro hospital
 
-├── dashboard.py # Visualización por consola
+├── dashboard.py ** Visualización por consola
 
-├── interfaz_dashboard.py # Interfaz gráfica (Tkinter)
+├── interfaz_dashboard.py ** Interfaz gráfica (Tkinter)
 
-├── config.py # Carga claves desde .env
+├── config.py ** Carga claves desde .env
 
-├── .env # Claves de PubNub (no se sube)
+├── .env ** Claves de PubNub (no se sube)
 
 
 ## Configuración
