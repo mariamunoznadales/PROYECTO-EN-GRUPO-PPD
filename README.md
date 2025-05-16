@@ -57,5 +57,6 @@ python3 hospital_a.py
 
 python3 hospital_b.py
 
+**Nota: python3 es la notación para Macbooks, para Windows usar python**
 
 
